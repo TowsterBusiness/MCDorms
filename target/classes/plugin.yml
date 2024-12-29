@@ -1,0 +1,15 @@
+name: CRP_Dorms
+version: '1.0-SNAPSHOT'
+main: me.towster.crp_dorms.CRP_Dorms
+api-version: '1.21'
+
+commands:
+  dorm:
+    description: All of the dorm functions
+    usage: /dorm
+
+permissions:
+  dorm.editor:
+    description: All of the dorm edit permissions
+  dorm.user:
+    description: All of the dorm user permissions
